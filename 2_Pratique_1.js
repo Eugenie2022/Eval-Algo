@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 
 // Pratique 1
 
@@ -11,11 +11,11 @@ let limiteAgeEnfant = 12;
 let limitePoidsEnfant = 50;
 
 function evaluerPeutRentrer(ageDuClient, poidsDuClient) {
-    // if (??) {
-    //   console.log("Vous pouvez monter dans ce manège");
-    // } else {
-    //   console.log("Vous ne pouvez pas monter dans ce manège");
-    // }
+    if (ageDuClient <= 12 && poidsDuClient < 50) {
+      console.log("Vous pouvez monter dans ce manège");
+    } else {
+      console.log("Vous ne pouvez pas monter dans ce manège");
+    }
 }
 
 // NE PAS MODIFIER APRES CETTE LIGNE
